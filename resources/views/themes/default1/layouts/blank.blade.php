@@ -39,7 +39,7 @@
         <div class="wrapper">
 
             <header class="main-header">
-                <a href="../../index2.html" class="logo"><b>SUPPORT </b> CENTER</a>
+                <a href="../../index2.html" class="logo"><b>Cloud TS</b></a>
                 <?php $company = App\Model\Settings\Company::where('id', '=', '1')->first();?>
 
                 @if($company->logo)

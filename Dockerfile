@@ -1,6 +1,6 @@
 FROM nginx
 
-MAINTAINER Ladybird Web Solutions <support@ladybirdweb.com>
+MAINTAINER Marc Pretorius <support@jamarservices.co.za>
 
 # Install necessary packages 
 RUN apt-get update -y && apt-get install -y apt-transport-https ca-certificates wget

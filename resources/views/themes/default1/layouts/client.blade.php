@@ -44,7 +44,7 @@
                 	@if($system->name)
                 		{!! $system->name !!}
                 	@else
-                		<b>SUPPORT</b> CENTER
+                		<b>CloudTS</b>
                 	@endif
                 @endif
                 </a>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>SUPPORT CENTER</title>
+    <title>CloudTS</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     
     <link rel="shortcut icon" href="{{asset("lb-faveo/media/images/favicon.ico")}}">
@@ -70,7 +70,7 @@
               @if($system->name)
                 <h1>{!! $system->name !!}</h1>
               @else
-                <h1><b>SUPPORT</b> CENTER</h1>
+                <h1><b>CloudTS</b></h1>
               @endif
             @endif
           </a>
@@ -113,7 +113,7 @@
           
           <div class="site-info">
 
-            <p class="text-muted">{!! Lang::get('lang.copyright') !!} &copy; {!! date('Y') !!}  <a href="{!! $company->website !!}">{!! $company->company_name !!}</a>. {!! Lang::get('lang.all_rights_reserved') !!}. {!! Lang::get('lang.powered_by') !!} <a href="http://www.faveohelpdesk.com/"  target="_blank">Faveo</a></p>
+            <p class="text-muted">{!! Lang::get('lang.copyright') !!} &copy; {!! date('Y') !!}  <a href="{!! $company->website !!}">{!! $company->company_name !!}</a>. {!! Lang::get('lang.all_rights_reserved') !!}. {!! Lang::get('lang.powered_by') !!} <a href="http://www.jamarservices.co.za/"  target="_blank">Jamar Services</a></p>
           </div>
         </div>
       </div>
