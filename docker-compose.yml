@@ -8,18 +8,18 @@ services:
      volumes:
        - db_data:/var/lib/mysql
      environment:
-       MYSQL_ROOT_PASSWORD: faveo
-       MYSQL_DATABASE: faveo
-       MYSQL_USER: faveo
-       MYSQL_PASSWORD: faveo
+       MYSQL_ROOT_PASSWORD: Hqufnacp@246
+       MYSQL_DATABASE: cloudts
+       MYSQL_USER: udecideadmin
+       MYSQL_PASSWORD: Hqufnacp@246
      ports:
        - "3306:3306"
 
    faveo:
-     container_name: faveo
+     container_name: cloudts
      depends_on:
        - mysql
-     image: ladybirdweb/faveo-docker
+     image: 1thegingerninja1/cloudts
      links:
        - mysql:mysql
      ports:
