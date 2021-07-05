@@ -35,7 +35,7 @@ WORKDIR /usr/share/nginx/
 RUN rm -rf *
 
 # Clone the project from git
-RUN git clone https://github.com/MarcPretorius/cloudts.git .
+RUN git clone https://github.com/MarcPretorius/asambo.git .
 
 RUN composer install
 RUN chgrp -R www-data . storage bootstrap/cache
