@@ -51,7 +51,7 @@ $extensions = [
     </head>
     <body>
         <div style="height: auto; width: 500; margin: auto;">
-            <h1 style="text-align: center; color: #9DD1DE">FAVEO PROBE</h1>
+            <h1 style="text-align: center; color: #9DD1DE">CloudTS PROBE</h1>
 <?php
 $basePath = str_replace('public', '', __DIR__);
 $storagePermission = substr(sprintf('%o', fileperms($basePath.DIRECTORY_SEPARATOR.'storage')), -3);
@@ -71,7 +71,7 @@ $bootstrapPermission = substr(sprintf('%o', fileperms($basePath.DIRECTORY_SEPARA
             <?php
 } else {
         ?>
-              <td style='color:red'><?= $storagePermission; ?>&nbsp; (Directory should be writable by your web server or Faveo will not run. Give preferred permissions as 755 for directory and 644 for files.)</td>
+              <td style='color:red'><?= $storagePermission; ?>&nbsp; (Directory should be writable by your web server or CloudTS will not run. Give preferred permissions as 755 for directory and 644 for files.)</td>
             <?php
     } ?>
           </tr>
@@ -83,7 +83,7 @@ $bootstrapPermission = substr(sprintf('%o', fileperms($basePath.DIRECTORY_SEPARA
             <?php
     } else {
         ?>
-              <td style='color:red'><?= $bootstrapPermission; ?>&nbsp; (Directory should be writable by your web server or Faveo will not run. Give preferred permissions as 755 for directory and 644 for files.)</td>
+              <td style='color:red'><?= $bootstrapPermission; ?>&nbsp; (Directory should be writable by your web server or CloudTS will not run. Give preferred permissions as 755 for directory and 644 for files.)</td>
             <?php
     } ?>
           </tr>

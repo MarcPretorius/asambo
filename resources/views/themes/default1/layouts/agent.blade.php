@@ -40,7 +40,7 @@
         <div class="wrapper">
 
             <header class="main-header">
-                <a href="" class="logo"><b>Cloud TS </b>HELPDESK</a>
+                <a href="" class="logo"><b>Cloud TS </b></a>
 
                 <?php
 $company = App\Model\helpdesk\Settings\Company::where('id', '=', '1')->first();

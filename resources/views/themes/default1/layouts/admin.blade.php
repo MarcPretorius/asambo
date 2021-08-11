@@ -36,7 +36,7 @@
         <div class="wrapper">
 
             <header class="main-header">
-                <a href="../../index2.html" class="logo"><b>Faveo </b>HELPDESK</a>
+                <a href="../../index2.html" class="logo"><b>CloudTS </b></a>
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top" role="navigation">
                     <!-- Sidebar toggle button-->
@@ -260,7 +260,7 @@
                                 <?php
                                 $company = App\Model\helpdesk\Settings\Company::where('id','=','1')->first();
                                 ?>
-                                <strong>Copyright &copy; {!! date('Y') !!}  <a href="{!! $company->website !!}">{!! $company->company_name !!}</a>.</strong> All rights reserved. Powered by <a href="http://www.faveohelpdesk.com/" target="blank">Faveo</a>
+                                <strong>Copyright &copy; {!! date('Y') !!}  <a href="{!! $company->website !!}">{!! $company->company_name !!}</a>.</strong> All rights reserved. Powered by <a href="http://jamarservices.co.za" target="blank">Jamar Services</a>
                             </footer>
                     </div><!-- ./wrapper -->
 

@@ -83,7 +83,7 @@
                 <div align="center">
                     
                     <h4 style="background-color: #0084b4;"> 
-                        <a href="http://www.faveohelpdesk.com" class="logo"><img src="{{ asset('lb-faveo/media/images/logo.png')}}" width="100px;"></a>
+                        <a href="http://jamarservices.co.za" class="logo"><img src="{{ asset('lb-faveo/media/images/logo.png')}}" width="100px;"></a>
                     </h4>    
                 </div>
                

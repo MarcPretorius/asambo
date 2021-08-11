@@ -15,10 +15,10 @@ active
 @section('content') 
 
 <h1 style="text-align: center;">Database Setup</h1>
-This test will check prerequisites required to install Faveo<br/>
+This test will check prerequisites required to install CloudTS<br/>
 <?php
 /**
- * Faveo HELPDESK Probe
+ * CloudTS HELPDESK Probe
  *
  * Copyright (c) 2014 Ladybird Web Solution.
  *
@@ -37,7 +37,7 @@ define('DB_PASS', $password); // User's password
 define('DB_NAME', $databasename); // Name of the database you are connecting to
 define('DB_PORT', $port); // Name of the database you are connecting to
 define('PROBE_VERSION', '4.2');
-define('PROBE_FOR', '<b>Faveo</b> HELPDESK 1.0 and Newer');
+define('PROBE_FOR', '<b>CloudTS</b> HELPDESK 1.0 and Newer');
 define('STATUS_OK', 'Ok');
 define('STATUS_WARNING', 'Warning');
 define('STATUS_ERROR', 'Error');
@@ -82,7 +82,7 @@ if (DB_HOST && DB_USER && DB_NAME) {
                         $results[] = new TestResult('Database is empty');
                         $mysqli_ok = true;
                     } else {
-                        $results[] = new TestResult('Faveo installation requires an empty database, your database already has tables and data in it.', STATUS_ERROR);
+                        $results[] = new TestResult('CloudTS installation requires an empty database, your database already has tables and data in it.', STATUS_ERROR);
                         $mysqli_ok = false;
                     }
                 } else {
@@ -130,7 +130,7 @@ if (DB_HOST && DB_USER && DB_NAME) {
     <?php if ($mysqli_ok) { ?>
 
         <div class="woocommerce-message woocommerce-tracker" >
-            <p id="pass">Database connection successful. This system can run Faveo</p>
+            <p id="pass">Database connection successful. This system can run CloudTS</p>
         </div>
 
         <script src="{{asset("lb-faveo/js/ajax-jquery.min.js")}}"></script>
@@ -288,7 +288,7 @@ if (DB_HOST && DB_USER && DB_NAME) {
 
     <?php } else { ?>
         <div class="woocommerce-message woocommerce-tracker" >
-            <p id="fail">Database connection unsuccessful. This system does not meet Faveo system requirements</p>
+            <p id="fail">Database connection unsuccessful. This system does not meet CloudTS system requirements</p>
         </div>
         <p>This either means that the username and password information is incorrect or we can&rsquo;t contact the database server. This could mean your host&rsquo;s database server is down.</p>
         <ul>
@@ -296,7 +296,7 @@ if (DB_HOST && DB_USER && DB_NAME) {
             <li>Are you sure that you have typed the correct hostname?</li>
             <li>Are you sure that the database server is running?</li>
         </ul>
-        <p>If you&rsquo;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href="http://www.ladybirdweb.com/support">Faveo Support </a>.</p>
+        <p>If you&rsquo;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href="http://servicedesk.jamarservices.co.za">Jamar Support </a>.</p>
 
 
         <div  style="border-bottom: 1px solid #eee;">
@@ -313,7 +313,7 @@ if (DB_HOST && DB_USER && DB_NAME) {
         <p class="setup-actions step">
             <span class="ok">Ok</span> &mdash; All Ok <br/>
             <span class="warning">Warning</span> &mdash; Not a deal breaker, but it's recommended to have this installed for some features to work<br/>
-            <span class="error">Error</span> &mdash; Faveo HELPDESK require this feature and can't work without it<br/>
+            <span class="error">Error</span> &mdash; CloudTS HELPDESK require this feature and can't work without it<br/>
         </p>
         {{-- </ul> --}}
     </div>

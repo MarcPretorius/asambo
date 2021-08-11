@@ -5,9 +5,9 @@
     <title>{{ Lang::get('laravel-filemanager::lfm.title-page') }}</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!--<link rel="stylesheet" href="/FaveoHELPDESK+KBenvatoLite/vendor/laravel-filemanager/css/cropper.min.css">-->
+    <!--<link rel="stylesheet" href="/CloudTSHELPDESK+KBenvatoLite/vendor/laravel-filemanager/css/cropper.min.css">-->
     <link rel="stylesheet" href="{{asset('vendor/laravel-filemanager/css/cropper.min.css')}}">
-    <!--<link rel="stylesheet" href="/FaveoHELPDESK+KBenvatoLite/vendor/laravel-filemanager/css/lfm.css">-->
+    <!--<link rel="stylesheet" href="/CloudTSHELPDESK+KBenvatoLite/vendor/laravel-filemanager/css/lfm.css">-->
     <link rel="stylesheet" href="{{asset('vendor/laravel-filemanager/css/lfm.css')}}">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.css">
 </head>
@@ -16,7 +16,7 @@
     <div class="row fill">
         <div class="panel panel-primary fill">
             <div class="panel-heading">
-                <h3 class="panel-title">Faveo File Manager</h3>
+                <h3 class="panel-title">CloudTS File Manager</h3>
             </div>
             <div class="panel-body fill">
                 <div class="row fill">
@@ -130,10 +130,10 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.3.0/bootbox.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<!--<script src="/FaveoHELPDESK+KBenvatoLite/vendor/laravel-filemanager/js/cropper.min.js"></script>-->
+<!--<script src="/CloudTSHELPDESK+KBenvatoLite/vendor/laravel-filemanager/js/cropper.min.js"></script>-->
 <script src="{{asset('vendor/laravel-filemanager/js/cropper.min.js')}}"></script>
 
-<!--<script src="/FaveoHELPDESK+KBenvatoLite/vendor/laravel-filemanager/js/jquery.form.min.js"></script>-->
+<!--<script src="/CloudTSHELPDESK+KBenvatoLite/vendor/laravel-filemanager/js/jquery.form.min.js"></script>-->
 <script src="{{asset('vendor/laravel-filemanager/js/jquery.form.min.js')}}"></script>
 <script>
     var shared_folder = "{{ Config::get('lfm.shared_folder_name') }}";

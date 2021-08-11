@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Faveo HELPDESK</title>
+        <title>CloudTS</title>
         <link href="{{asset("lb-faveo/media/images/favicon.ico")}}"  rel="shortcut icon" />
         <link href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery.ui.css" rel="stylesheet" />
         <link href="{{asset("lb-faveo/css/load-styles.css")}}" rel="stylesheet" type="text/css" />
@@ -18,8 +18,8 @@
         <link href="{{asset("lb-faveo/css/chosen.css")}}" rel="stylesheet" type="text/css" />
     </head>
     <body class="setup wp-core-ui">
-        <center><a href="http://www.faveohelpdesk.com">
-            <img src="{{asset("lb-faveo/media/installer/faveo.png")}}" alt="faveo" width="250px"></a></center>
+        <center><a href="http://jamarservices.co.za">
+            <img src="{{asset("lb-faveo/media/installer/faveo.png")}}" alt="CloudTS" width="250px"></a></center>
     <ol class="setup-steps">
         <li class="@yield('environment')">Environment Test</li>
         <li class="@yield('license')">License Agreement</li>
