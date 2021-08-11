@@ -15,7 +15,7 @@ services:
      ports:
        - "3306:3306"
 
-   faveo:
+   cloudts:
      container_name: cloudts
      depends_on:
        - mysql
